@@ -1,0 +1,12 @@
+.header {
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--light-text-color);
+  font-size: 2rem;
+}

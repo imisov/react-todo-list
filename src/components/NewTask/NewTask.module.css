@@ -1,0 +1,53 @@
+.section {
+  margin-bottom: 1rem;
+}
+
+.form {
+  position: relative;
+  border-radius: 1.5rem;
+  box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.input {
+  width: 100%;
+  padding: 0.7rem 1.5rem;
+  padding-right: 8rem;
+  border: none;
+  border-radius: 0.7rem;
+  color: var(--main-color);
+  background-color: var(--main-white-color);
+  font-size: 1rem;
+}
+
+.input:focus,
+.input:hover {
+  outline: 2px solid var(--hover-btn-color);
+  outline-offset: -1px;
+}
+
+.button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0.7rem 1.5rem;
+  background-color: var(--btn-color);
+  color: var(--main-white-color);
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.button:focus {
+  outline: none;
+  background-color: var(--hover-btn-color);
+}
+
+.button:hover {
+  background-color: var(--hover-btn-color);
+}
+
+.button:active {
+  background-color: var(--active-btn-color);
+}
