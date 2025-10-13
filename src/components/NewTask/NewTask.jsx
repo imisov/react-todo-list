@@ -4,6 +4,9 @@ import * as s from "./NewTask.module.css";
 export default function NewTask() {
   const inputId = useId();
   const [value, setValue] = useState("");
+  const handleInputChange = (e) => {
+    setValue(e.target.value);
+  };
 
   return (
     <section className={s.section}>
@@ -13,7 +16,7 @@ export default function NewTask() {
           className={s.input}
           type="text"
           value={value}
-          onChange={(e) => setValue(e.target.value)}
+          onChange={handleInputChange}
           placeholder="Введите новую задачу..."
         />
         <button className={s.button} type="submit">
