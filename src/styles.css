@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --main-color: #28283d;
+  --light-main-color: #353550;
+  --check-color: #8bc34a;
+  --btn-color: #fe5416;
+  --hover-btn-color: #f77748;
+  --active-btn-color: #f84504;
+  --checked-text-color: #b7b7b9;
+  --main-white-color: snow;
+  --hover-checkline-color: #feebda;
+  --light-text-color: #fffbeb;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(
+    to bottom right,
+    var(--main-color),
+    var(--light-main-color)
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  width: 75%;
+  max-width: 55rem;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.main {
+  margin-bottom: 1.5rem;
+}
