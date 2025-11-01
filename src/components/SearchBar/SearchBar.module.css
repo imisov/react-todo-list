@@ -1,0 +1,30 @@
+.form {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.7rem 1.5rem;
+  padding-left: 2.5rem;
+  border: 2px solid var(--main-color);
+  border-radius: 1.3rem;
+  outline: none;
+  color: var(--main-color);
+  background-color: var(--main-white-color);
+  font-size: 1rem;
+}
+
+.input:focus,
+.input:hover {
+  outline: none;
+  border-color: var(--hover-btn-color);
+}
+
+.searchIcon {
+  position: absolute;
+  left: 0.7rem;
+  top: 0.7rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
